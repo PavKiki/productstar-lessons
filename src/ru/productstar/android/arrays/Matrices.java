@@ -1,6 +1,7 @@
 package ru.productstar.android.arrays;
 
 import java.util.Arrays;
+import java.util.regex.Pattern;
 
 public class Matrices {
     static <T> T todo() {
@@ -324,6 +325,8 @@ public class Matrices {
     }
 
     public static void main(String[] args) {
+    	System.out.println(Pattern.matches("A.+a.*", "Anna Abobo"));
+    	
         // Пример создания нулевого вектора длины 3
         Vector zeroVector = new Vector(3);
         System.out.println("Нулевой вектор длины 3: " + zeroVector);
